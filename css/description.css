@@ -1,0 +1,16 @@
+.description__text {
+    text-align: justify;
+    padding: 20px;
+    background-color: rgb(232, 238, 238);
+    line-height: 35px;
+}
+
+.description__photoContainer {
+    margin: auto;
+    padding: 12px 10px 10px 10px;
+    background-color: rgb(81, 88, 88);
+}
+
+.description__photo {
+    border-radius: 60%;
+}

@@ -1,0 +1,38 @@
+.passion__text {
+    text-align: justify;
+    padding: 20px;
+    background-color: rgb(232, 238, 238);
+    line-height: 35px;
+}
+
+.passion__link:hover {
+    color: rgb(97, 4, 4);
+}
+
+.passion__picGeisza {
+    margin: auto;
+    display: none;
+    outline: rgb(0, 0, 0);
+    outline-style: double;
+    max-width: 300px;
+}
+
+.passion__picBalerina {
+    margin: auto;
+    display: none;
+    outline: rgb(0, 0, 0);
+    outline-style: double;
+    width: 300px;
+}
+
+.passion__picFlamenco {
+    margin: auto;
+    display: none;
+    outline: rgb(0, 0, 0);
+    outline-style: double;
+    width: 300px;
+}
+
+.showPicture {
+    display: block;
+}

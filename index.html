@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/description.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/passion.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__One">WWW.artpit.pl </h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem">
+                <a class="navigation__linkNav" href="#description">O mnie</a></li>
+            <li class="navigation__listItem">
+                <a class="navigation__linkNav" href="#table">Ulubione filmy</a></li>
+            <li class="navigation__listItem">
+                <a class="navigation__linkNav" href="#passion">Pasja</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="description" id="description">
+            <h2> O mnie</h2>
+            <p class="description__photoContainer">
+                <img class="description__photo" width="200" src="img/omnie.jpg" alt="My face" />
+            </p>
+            <p class="description__text"> Mam na imię Piotrek i pochodzę z Białegostoku, wspaniałego miasta znajdującego się na północnym wschodzie Polski. Mam cudowną żonę i dwóch synów w wieku 15 i 6 lat.<br>Pracuję w firmie zajmującej się produkcją form wtryskowych, przy obsłudze
+                maszyn CNC a dokładniej EDM (czyli obróbka metalu metodą elektroerozyjną) W sumie praca jest dość ciekawa, ale po 17 latach stała się trochę nudna, stąd pomysł na ten kurs i niewielka nadzieja że coś się może zmieni w życiu. Pamiętem że
+                swoją przygodę z programowaniem zacząłem jeszcze na pierwszych komuterach typu Atari w jezyku Basic. Ale przygoda ta się szybko skończyła.<br>Interesuje mnie wiele dziedzin od elektroniki przez modelarstwo po gotowanie. Być może za dużo
+                rzeczy chcę naraz ale wydaje mi się że wiedza to największy kapitał. Jak mawiał pewnien przywódca z Indi <b>"Żyj tak jakbyś miał umrzeć jutro, ucz się tak jakbyś miał życ wiecznie"</b>. Uwielbiam stare dobre kino, poniższa tabela przedstawia
+                dziesięć moich ulubionych filmów.
+            </p>
+        </section>
+        <section id="table">
+            <h3 class="table__caption">Ranking ulubionych filmów</h3>
+            <table class="table">
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="col">Miejsce</th>
+                    <th class="table__tableHeader" scope="col">Tytuł</th>
+                    <th class="table__tableHeader" scope="col">Rok produkcji</th>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">1</th>
+                    <td class="table__tableCell">Godfather</td>
+                    <td class="table__tableCell">1972</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">2</th>
+                    <td class="table__tableCell">Sleepers</td>
+                    <td class="table__tableCell">1996</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">3</th>
+                    <td class="table__tableCell">Casyno</td>
+                    <td class="table__tableCell">1995</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">4</th>
+                    <td class="table__tableCell">Goodfellas</td>
+                    <td class="table__tableCell">1990</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">5</th>
+                    <td class="table__tableCell">Braveheart</td>
+                    <td class="table__tableCell">1995</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">6</th>
+                    <td class="table__tableCell">Heat</td>
+                    <td class="table__tableCell">1995</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">7</th>
+                    <td class="table__tableCell">Once Upon a Time in America</td>
+                    <td class="table__tableCell">1984</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">8</th>
+                    <td class="table__tableCell">The Deer Hunter</td>
+                    <td class="table__tableCell">1978</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">9</th>
+                    <td class="table__tableCell">Forrest Gump</td>
+                    <td class="table__tableCell">1994</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableHeader" scope="row">10</th>
+                    <td class="table__tableCell">Scarface</td>
+                    <td class="table__tableCell">1983</td>
+                </tr>
+            </table>
+        </section>
+        <section class="passion" id="passion">
+            <h3>Pasja</h3>
+            <p class="passion__text"> Moją największą pasją jest malarstow olejne akrylowe i rysunek.Od młodzieńczych lat próbowałem coś rysować i malować, ale na poważnie zająłem się tym jakieś 10 lat temu. Odkąd pamiętam to najwiekszą radość sprawiało mi przyglądanie się jak
+                na czystej kartce lub płótnie wyłania się wizerunek jakiejś twarzy dlatego skupiłem się na portretach. Krótka demonstracja w linku.<a target="blank" class="passion__link" href="https://www.youtube.com/watch?v=Ip3eEmzmoEs&t=1s">Filmik jak powstaje obraz</a><br>Poniżej
+                kilka moich obrazów.
+            </p>
+            <p>
+                <button class="passion__button js-passion__button">Pokaż obraz</button>
+            </p>
+            <p>
+                <img class="passion__picBalerina js-passion__picBalerina" src="/img/baletnica.jpg" alt="Baletnica">
+                <img class="passion__picGeisza js-passion__picGeisza" src="/img/geisza.jpg" alt="Geisza">
+                <img class="passion__picFlamenco js-passion__picFlamenco" src="/img/flamenko.jpg" alt="Flamenco">
+            </p>
+        </section>
+    </main>
+    <footer class="footer">&reg; Copyright 2021 - Wszystkie prawa zastrzeżone !</footer>
+</body>
+
+</html>

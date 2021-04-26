@@ -1,0 +1,26 @@
+.navigation__list {
+    padding: 0px;
+    margin: auto;
+}
+
+.navigation__listItem {
+    font-size: large;
+    margin-left: auto;
+    font-style: italic;
+    list-style-type: none;
+    text-shadow: 6px 6px 3px rgb(180, 180, 180);
+}
+
+.navigation__linkNav {
+    text-decoration: none;
+}
+
+.navigation__linkNav:hover {
+    text-decoration: none;
+    color: rgb(200, 166, 231);
+}
+
+.navigation__linkNav:focus {
+    text-decoration: none;
+    color: rgb(62, 9, 78);
+}

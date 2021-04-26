@@ -1,0 +1,19 @@
+html {
+    max-width: 1400px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+.footer {
+    background-color: cadetblue;
+}
