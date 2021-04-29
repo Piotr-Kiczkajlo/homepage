@@ -1,7 +1,7 @@
 #  *Piotr Kiczkajło - personal homepage* 
 ![Piotrek](https://github.com/Piotr-Kiczkajlo/homepage/blob/main/img/omnie.jpg?raw=true)
 ## **Demo**
-https://piotr-kiczkajlo.github.io/homepage/
+[Homepage-preview](https://piotr-kiczkajlo.github.io/homepage/)
 ## **Technologies Usage**
 - HTML
 - CSS
