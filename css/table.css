@@ -4,7 +4,7 @@
     border-collapse: collapse;
 }
 
-.table__tableCell {
+.table__cell {
     padding: 5px 10px 5px 10px;
     text-align: center;
     border: 1px solid rgb(105, 105, 105);
@@ -14,16 +14,16 @@
     font-size: x-large;
 }
 
-.table__tableHeader {
+.table__cell--header {
     padding: 10px;
     background-color: rgb(197, 197, 197);
     border: 1px solid rgb(105, 105, 105);
 }
 
-.table__tableRow:nth-child(even) {
+.table__row:nth-child(even) {
     background-color: rgba(236, 236, 236, 0.979);
 }
 
-.table__tableRow:hover {
+.table__row:hover {
     background-color: rgb(102, 128, 128);
 }
